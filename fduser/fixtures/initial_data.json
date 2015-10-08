@@ -1,0 +1,66 @@
+[
+  {
+    "pk":1,
+    "model":"fduser.interest",
+    "fields":{
+      "name":"CapoCaccia"
+    }
+  },
+  {
+    "pk":2,
+    "model":"fduser.interest",
+    "fields":{
+      "name":"Telluride"
+    }
+  },
+  {
+    "pk":1,
+    "model":"auth.group",
+    "fields":{
+      "name":"Reader",
+      "permissions":[
+
+      ]
+    }
+  },
+  {
+    "pk":2,
+    "model":"auth.group",
+    "fields":{
+      "name":"Writer",
+      "permissions":[
+ 
+      ]
+    }
+  },
+  {
+    "pk":3,
+    "model":"auth.group",
+    "fields":{
+      "name":"Admin",
+      "permissions":[
+  
+      ]
+    }
+  },
+  {
+    "pk":4,
+    "model":"auth.group",
+    "fields":{
+      "name":"Voter",
+      "permissions":[
+
+      ]
+    }
+  },
+  {
+    "pk":5,
+    "model":"auth.group",
+    "fields":{
+      "name":"Board member",
+      "permissions":[
+
+      ]
+    }
+  }
+]
