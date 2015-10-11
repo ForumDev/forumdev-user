@@ -69,6 +69,13 @@ class UserCreationForm(AuthUserCreationForm):
 #   interests = ModelChoiceField(queryset=Interests.objects.all())
   class Meta:
     model = User
+#    fields = ['first_name', 'last_name', 'username', 'email', 'telephone' \
+#                , 'affiliation', 'department', 'address', 'bill_address' \
+#                , 'avatar', 'research_status', 'gender', 'research_field' \
+#                , 'supervisor', 'short_bio', 'twitter', 'google_plus' \
+#                , 'facebook', 'personal_email', 'news_feed', 'google_scholar' \ 
+#                , 'orcid_id', 'interests', 'receive_newsletter', 'accept_terms']
+    exclude = ['is_staff', 'is_active', 'date_joined']
 
  
   ## This method is defined in django.contrib.auth.form.UserCreationForm and explicitly links to auth.models.User so we need to override it
